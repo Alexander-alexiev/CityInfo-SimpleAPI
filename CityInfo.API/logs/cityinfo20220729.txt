@@ -1,0 +1,249 @@
+2022-07-29 14:20:14.753 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-07-29 14:20:16.056 +03:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2022-07-29 14:20:16.351 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:20:16.355 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:20:16.356 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:20:16.356 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:20:16.369 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:20:16.369 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:20:16.369 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:20:16.369 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:20:16.540 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-07-29 14:20:40.645 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-07-29 14:20:41.871 +03:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2022-07-29 14:20:42.365 +03:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.377 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.398 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.419 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-07-29 14:20:42.431 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (7ms).
+2022-07-29 14:20:42.433 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.438 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.452 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:20:42.487 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:20:42.494 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.501 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.503 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.504 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.504 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-07-29 14:20:42.504 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-07-29 14:20:42.504 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.504 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.505 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:20:42.505 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:20:42.505 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.505 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.531 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-07-29 14:20:42.532 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-07-29 14:20:42.532 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.532 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.532 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-07-29 14:20:42.533 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-07-29 14:20:42.535 +03:00 [DBG] A data reader was disposed.
+2022-07-29 14:20:42.535 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.535 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.554 +03:00 [INF] Applying migration '20220729112016_CitiInfoDbAddPointOfInterestMigration'.
+2022-07-29 14:20:42.626 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.627 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.630 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-07-29 14:20:42.634 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-07-29 14:20:42.636 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:20:42.636 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:20:42.637 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2022-07-29 14:20:42.638 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointsOfInterest" ADD "Description" TEXT NOT NULL DEFAULT '';
+2022-07-29 14:20:42.639 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:20:42.639 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:20:42.639 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220729112016_CitiInfoDbAddPointOfInterestMigration', '6.0.0');
+2022-07-29 14:20:42.639 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220729112016_CitiInfoDbAddPointOfInterestMigration', '6.0.0');
+2022-07-29 14:20:42.650 +03:00 [DBG] Committing transaction.
+2022-07-29 14:20:42.655 +03:00 [DBG] Committed transaction.
+2022-07-29 14:20:42.660 +03:00 [DBG] Disposing transaction.
+2022-07-29 14:20:42.661 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:20:42.661 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:20:42.662 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-07-29 14:39:14.602 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-07-29 14:39:16.290 +03:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2022-07-29 14:39:16.617 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.619 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.619 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.669 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.670 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.670 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.670 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.670 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.670 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.727 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:39:16.733 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:39:16.734 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:39:16.751 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:39:16.882 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.882 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.882 +03:00 [DBG] Context 'CityInfoContext' started tracking 'City' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.882 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.882 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.882 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.883 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.883 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.883 +03:00 [DBG] Context 'CityInfoContext' started tracking 'PointOfInterest' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.900 +03:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.917 +03:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.917 +03:00 [DBG] An entity of type 'City' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.918 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.918 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.918 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.918 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.918 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.918 +03:00 [DBG] An entity of type 'PointOfInterest' tracked by 'CityInfoContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-07-29 14:39:16.918 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:39:16.919 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:39:16.945 +03:00 [DBG] DetectChanges starting for 'CityInfoContext'.
+2022-07-29 14:39:16.946 +03:00 [DBG] DetectChanges completed for 'CityInfoContext'.
+2022-07-29 14:39:17.198 +03:00 [DBG] 'CityInfoContext' disposed.
+2022-07-29 14:39:27.230 +03:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-07-29 14:39:28.398 +03:00 [INF] Entity Framework Core 6.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.0' with options: None
+2022-07-29 14:39:28.487 +03:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.493 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.512 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.529 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-07-29 14:39:28.545 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2022-07-29 14:39:28.546 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.556 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.565 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:39:28.598 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:39:28.600 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.607 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.608 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.609 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.610 +03:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2022-07-29 14:39:28.610 +03:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2022-07-29 14:39:28.610 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.610 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.610 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:39:28.610 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2022-07-29 14:39:28.610 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.610 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.628 +03:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-07-29 14:39:28.628 +03:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2022-07-29 14:39:28.628 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.628 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.629 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-07-29 14:39:28.630 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2022-07-29 14:39:28.633 +03:00 [DBG] A data reader was disposed.
+2022-07-29 14:39:28.634 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.634 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.656 +03:00 [INF] Applying migration '20220729113916_DataSeed'.
+2022-07-29 14:39:28.745 +03:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:28.745 +03:00 [DBG] Opened connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:28.747 +03:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2022-07-29 14:39:28.750 +03:00 [DBG] Began transaction with isolation level 'Serializable'.
+2022-07-29 14:39:28.756 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:28.756 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:28.757 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York');
+2022-07-29 14:39:28.758 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (1, 'The one with that big park.', 'New York');
+2022-07-29 14:39:28.758 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:28.758 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:28.758 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with the cathedral that was never really finished.', 'Antwerp');
+2022-07-29 14:39:28.758 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (2, 'The one with the cathedral that was never really finished.', 'Antwerp');
+2022-07-29 14:39:28.758 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:28.758 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:28.758 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big tower.', 'Paris');
+2022-07-29 14:39:28.758 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Cities" ("Id", "Description", "Name")
+VALUES (3, 'The one with that big tower.', 'Paris');
+2022-07-29 14:39:28.758 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:28.758 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:28.759 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited park in the United States', 'Central Park');
+2022-07-29 14:39:28.759 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (1, 1, 'The most visited park in the United States', 'Central Park');
+2022-07-29 14:39:28.759 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:28.759 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:28.759 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+2022-07-29 14:39:28.760 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (2, 1, 'A 102-story skyscraper located in Midtown Manhattan.', 'Empire State Building');
+2022-07-29 14:39:28.760 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:28.760 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:28.760 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A Gothic style cathedral, conceived by architects Jan and Piete.', 'Cathedral');
+2022-07-29 14:39:28.760 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (3, 2, 'A Gothic style cathedral, conceived by architects Jan and Piete.', 'Cathedral');
+2022-07-29 14:39:28.760 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:28.760 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:28.760 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'The finest example of railway architecture in Belgium.', 'Central Station');
+2022-07-29 14:39:29.608 +03:00 [INF] Executed DbCommand (848ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (4, 2, 'The finest example of railway architecture in Belgium.', 'Central Station');
+2022-07-29 14:39:29.608 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:29.608 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:29.608 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'A wrought iron lattice tower on the Champ de Mars, named after the architect.', 'Eifel Tower');
+2022-07-29 14:39:29.609 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (5, 3, 'A wrought iron lattice tower on the Champ de Mars, named after the architect.', 'Eifel Tower');
+2022-07-29 14:39:29.609 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:29.609 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:29.609 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'The world''s largest museum.', 'The Louvre');
+2022-07-29 14:39:29.609 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "PointsOfInterest" ("Id", "CityId", "Description", "Name")
+VALUES (6, 3, 'The world''s largest museum.', 'The Louvre');
+2022-07-29 14:39:29.609 +03:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2022-07-29 14:39:29.609 +03:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2022-07-29 14:39:29.609 +03:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220729113916_DataSeed', '6.0.0');
+2022-07-29 14:39:29.609 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20220729113916_DataSeed', '6.0.0');
+2022-07-29 14:39:29.611 +03:00 [DBG] Committing transaction.
+2022-07-29 14:39:29.617 +03:00 [DBG] Committed transaction.
+2022-07-29 14:39:29.621 +03:00 [DBG] Disposing transaction.
+2022-07-29 14:39:29.621 +03:00 [DBG] Closing connection to database 'main' on server 'C:\Users\c65684a\source\repos\CityInfo\CityInfo.API\CityInfo.db'.
+2022-07-29 14:39:29.622 +03:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-07-29 14:39:29.624 +03:00 [DBG] 'CityInfoContext' disposed.

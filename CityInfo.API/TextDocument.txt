@@ -1,0 +1,7 @@
+This is just a normal file. It is used for test purposes.
+
+I have this file for my project and nothing else.
+
+I hope to see this content in responses. 
+
+C# is cool language. 
